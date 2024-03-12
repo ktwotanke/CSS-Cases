@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="tabs">
+        <input type="radio" id="home" name="ground" checked onclick="console.log('Home')">  
+        <input type="radio" id="user" name="ground" onclick="console.log('user')">  
+        <input type="radio" id="setting" name="ground" onclick="console.log('Setting')">  
+        <input type="radio" id="security" name="ground" onclick="console.log('Security')">  
+        <div class="icon">
+            <label for="home"><i class='bx bx-home'></i></label>
+            <label for="user"><i class='bx bx-user'></i></label>
+            <label for="setting"><i class='bx bx-cog'></i></label>
+            <label for="security"><i class='bx bx-lock'></i></label>
+            <div class="indicator"></div>
+        </div> 
+        <div class="content">
+            <div class="content-box">
+                <h1>Home</h1>
+                <p>This is Home</p>
+            </div>
+            <div class="content-box">
+                <h1>User</h1>
+                <p>This is User</p>
+            </div>
+            <div class="content-box">
+                <h1>Setting</h1>
+                <p>This is setting</p>
+            </div>
+            <div class="content-box">
+                <h1>Security</h1>
+                <p>This is security</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
